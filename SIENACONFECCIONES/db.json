@@ -1,0 +1,195 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "password": "$2a$10$xkyJ.rIvQQbczk4FRluwSOvRSj97nJBhKGSYKkCeSXqV8v2rw65eO",
+      "id": "d048"
+    },
+    {
+      "name": "empleado",
+      "email": "empleado@gmail.com",
+      "role": "employee",
+      "password": "$2a$10$qPFZjn9mBvI8gvkPWgbrZegWWdZ.KSjHqaTgJgIDGJPrvDTTRal0m",
+      "id": "1c0e"
+    },
+    {
+      "id": "6d44",
+      "email": "andrey@gmail.com",
+      "password": "$2a$10$Sdl.mjzAf40i5j4SOwlL3OBtYXjSKTMD/Ei8GFqTOoBzzLZlfP2pm",
+      "name": "andrey",
+      "phoneNumber": "3212312332",
+      "role": "customer"
+    },
+    {
+      "id": "bbd0",
+      "email": "faf@gmail.com",
+      "password": "$2a$10$g9J8ntJCvWs451igkd.tfOfsokDeHDuffMNyPnMnHLKrdC8uFecQy",
+      "name": "faf",
+      "phoneNumber": "3212121212",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "name": "Gorra Blanca",
+      "description": "Gorra blanca curva con estampado de New york en negro",
+      "price": "35.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/201390/60593233_1.png?v=638580412171270000",
+      "color": "azul",
+      "type": "Plana",
+      "id": "ef00"
+    },
+    {
+      "name": "Gorra new negra",
+      "description": "Gorra negra plana con estampando de New York en negro",
+      "price": "40.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/175436/60363759_1.png?v=638285906152300000",
+      "color": "azul",
+      "type": "Plana",
+      "id": "a80a"
+    },
+    {
+      "name": "Gorras beige LA",
+      "description": "Gorra beige plana con estampado en rojo de \"LA\"",
+      "price": "45.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/175426/60363757_1.png?v=638285906112770000",
+      "color": "Beige",
+      "type": "Plana",
+      "id": "f6cc"
+    },
+    {
+      "name": "Gorras azul LA",
+      "description": "Gorra azul plana con estpando en blaco \"LA\"",
+      "price": "40.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/185740/60363293_6.png?v=638375533672030000",
+      "color": "Beige",
+      "type": "Curva",
+      "id": "5eb4"
+    },
+    {
+      "name": "Gorra blanca Adidas",
+      "description": "Gorra blanca curva con estampado en negro de adidas",
+      "price": "45.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/204539/60565353_1.png?v=638621770387300000",
+      "color": "Blanca",
+      "type": "Curva",
+      "id": "9fd7"
+    },
+    {
+      "name": "Gorra Azul La",
+      "description": "",
+      "price": "40.000",
+      "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/202476-500-auto?v=638598563868700000&width=500&height=auto&aspect=true",
+      "color": "azul",
+      "type": "Curva",
+      "id": "ac04"
+    }
+  ],
+  "orders": [
+    {
+      "id": "f5b2",
+      "nombre": "a",
+      "direccion": "cra 90 a #42 g sur 20",
+      "telefono": "3123123213",
+      "correo": "andreyalgarra000@gmail.com",
+      "cart": [
+        {
+          "name": "Gorra Blanca",
+          "description": "Gorra blanca curva con estampado de New york en negro",
+          "price": "35.000",
+          "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/201390/60593233_1.png?v=638580412171270000",
+          "id": "ef00",
+          "sizeOptions": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 35,
+      "date": "2024-09-21T00:18:40.665Z",
+      "status": "fabricación"
+    },
+    {
+      "id": "b709",
+      "nombre": "a",
+      "direccion": "cra 90 a #42 g sur 27",
+      "telefono": "3123213123",
+      "correo": "a@gmail.com",
+      "metodoPago": "contraentrega",
+      "cart": [
+        {
+          "name": "Gorra blanca Adidas",
+          "description": "Gorra blanca curva con estampado en negro de adidas",
+          "price": "45.000",
+          "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/204539/60565353_1.png?v=638621770387300000",
+          "color": "Blanca",
+          "type": "Curva",
+          "id": "9fd7",
+          "quantity": 2
+        }
+      ],
+      "total": 90,
+      "date": "2024-10-14T16:35:32.225Z"
+    },
+    {
+      "id": "d57e",
+      "nombre": "a",
+      "direccion": "cra 90 a #42 g sur 27",
+      "telefono": "3213213213",
+      "correo": "a@gmail.com",
+      "metodoPago": "contraentrega",
+      "cart": [
+        {
+          "name": "Gorra new negra",
+          "description": "Gorra negra plana con estampando de New York en negro",
+          "price": "40.000",
+          "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/175436/60363759_1.png?v=638285906152300000",
+          "color": "azul",
+          "type": "Plana",
+          "id": "a80a",
+          "quantity": 1
+        },
+        {
+          "name": "Gorras beige LA",
+          "description": "Gorra beige plana con estampado en rojo de \"LA\"",
+          "price": "45.000",
+          "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/175426/60363757_1.png?v=638285906112770000",
+          "color": "Beige",
+          "type": "Plana",
+          "id": "f6cc",
+          "quantity": 1
+        },
+        {
+          "name": "Gorra Blanca",
+          "description": "Gorra blanca curva con estampado de New york en negro",
+          "price": "35.000",
+          "imageUrl": "https://neweraco.vtexassets.com/arquivos/ids/201390/60593233_1.png?v=638580412171270000",
+          "color": "azul",
+          "type": "Plana",
+          "id": "ef00",
+          "quantity": 1
+        }
+      ],
+      "total": 120,
+      "date": "2024-10-14T17:03:38.926Z",
+      "status": "fabricación"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "method": "Pago Contra Entrega",
+      "icon": "url_icon_pago_contra_entrega",
+      "id": "ce52"
+    },
+    {
+      "method": "Nequi",
+      "icon": "url_icon_nequi",
+      "id": "3788"
+    }
+  ]
+}
